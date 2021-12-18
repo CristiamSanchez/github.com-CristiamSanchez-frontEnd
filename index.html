@@ -1,0 +1,41 @@
+<html>
+
+<head>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <script src="cliente.js"></script>
+  
+</head>
+
+<body>
+ 
+   <div class="container">
+        <div class="form-group row">
+                <div class="col-xs-3">
+                <label for="idDia">Id Dia </label>
+                <input type="number" class="form-control" placeholder="Dia" id="idDia">
+                </div>
+        </div>
+            <button type="button" class="btn btn-danger" onclick="buscarDia()">Busca Dia</button>
+            
+        </form>
+        <div class="mt-4" id="respuesta"></div>
+   </div>
+   <div id="tabla"> <div></div>
+   
+   
+</body>
+
+</html>
